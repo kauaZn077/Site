@@ -1,0 +1,69 @@
+  /* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background: url('fundoromantico4k.png') repeat; /* Substitua pelo caminho da imagem */
+    background-size: cover; /* Ajusta o tamanho do fundo */
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  /* Informações estáticas */
+  .info {
+    margin-bottom: 20px;
+  }
+  
+  #timer, #next-anniversary {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #fff; 
+  }
+  
+  /* Texto longo abaixo do slideshow */
+  #message {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 30px auto; /* Espaçamento maior para separação das fotos */
+    text-align: justify;
+    max-width: 800px;
+    padding: 15px;
+    background-color: #fff7e6; /* Fundo suave para destaque */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px #f5f3f31a;
+  }
+  
+  /* Slideshow */
+  .slideshow-container {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 30px; /* Espaço entre o slideshow e o texto */
+  }
+  
+  .slide {
+    display: none;
+  }
+  
+  .slide img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Música */
+  audio {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
